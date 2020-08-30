@@ -1498,37 +1498,19 @@ Wire Wire Line
 	2750 5350 2750 5500
 Text GLabel 2750 5350 1    50   Output ~ 0
 T3
-Wire Wire Line
-	1600 1100 1450 1100
-Wire Wire Line
-	1800 1100 1600 1100
-Connection ~ 1600 1100
-Wire Wire Line
-	1600 750  1600 1100
-Wire Wire Line
-	1550 750  1600 750 
-Text GLabel 1550 750  0    50   Input ~ 0
-HeatbedPWR
 $Comp
-L Device:Fuse_Small F2
-U 1 1 5D6D2425
-P 9000 3450
-F 0 "F2" H 9000 3635 50  0000 C CNN
-F 1 "F_Heatbed_15A" H 9000 3544 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" H 9000 3450 50  0001 C CNN
-F 3 "~" H 9000 3450 50  0001 C CNN
-	1    9000 3450
-	1    0    0    -1  
+L power:VDD #PWR0163
+U 1 1 5F5B7109
+P 9350 3250
+F 0 "#PWR0163" H 9350 3100 50  0001 C CNN
+F 1 "VDD" H 9368 3423 50  0000 C CNN
+F 2 "" H 9350 3250 50  0001 C CNN
+F 3 "" H 9350 3250 50  0001 C CNN
+	1    9350 3250
+	-1   0    0    1   
 $EndComp
-Text GLabel 8500 3450 0    50   Input ~ 0
-HeatbedPWR
 Wire Wire Line
-	8500 3450 8900 3450
+	9350 3250 9100 3250
 Wire Wire Line
-	9400 3250 9400 3450
-Wire Wire Line
-	9100 3450 9400 3450
-Connection ~ 9100 3250
-Wire Wire Line
-	9100 3250 9400 3250
+	1450 1100 1800 1100
 $EndSCHEMATC

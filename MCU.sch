@@ -35,29 +35,29 @@ Text GLabel 3900 4550 3    50   Input ~ 0
 FET3
 Text GLabel 5600 4550 3    50   Input ~ 0
 FET2
-Text GLabel 4200 4550 3    50   Input ~ 0
+Text GLabel 4600 4550 3    50   Input ~ 0
 EN_X
-Text GLabel 6100 2750 1    50   Input ~ 0
+Text GLabel 4300 4550 3    50   Input ~ 0
 EN_Y
 Text GLabel 5500 2750 1    50   Input ~ 0
 EN_Z
-Text GLabel 4600 4550 3    50   Input ~ 0
+Text GLabel 6600 2750 1    50   Input ~ 0
 STEP_X
 Text GLabel 4500 4550 3    50   Input ~ 0
 STEP_Y
-Text GLabel 4400 4550 3    50   Input ~ 0
+Text GLabel 4200 4550 3    50   Input ~ 0
 STEP_Z
-Text GLabel 6600 2750 1    50   Input ~ 0
+Text GLabel 2700 4550 3    50   Input ~ 0
 DIR_X
-Text GLabel 6000 2750 1    50   Input ~ 0
+Text GLabel 4400 4550 3    50   Input ~ 0
 DIR_Y
-Text GLabel 5400 2750 1    50   Input ~ 0
+Text GLabel 3800 4550 3    50   Input ~ 0
 DIR_Z
 Text GLabel 5300 2750 1    50   Input ~ 0
 EN_E0
 Text GLabel 5200 2750 1    50   Input ~ 0
 DIR_E0
-Text GLabel 4300 4550 3    50   Input ~ 0
+Text GLabel 5400 2750 1    50   Input ~ 0
 STEP_E0
 Text GLabel 5700 2750 1    50   Input ~ 0
 MISO
@@ -312,12 +312,6 @@ Text GLabel 9250 4650 0    50   Input ~ 0
 USB_D+
 Text GLabel 9250 4750 0    50   Input ~ 0
 USB_D-
-Text GLabel 4400 6900 0    50   Input ~ 0
-MOSI
-Text GLabel 4400 6700 0    50   Input ~ 0
-SCK
-Text GLabel 4400 6800 0    50   Input ~ 0
-MISO
 $Comp
 L Device:R_Small R?
 U 1 1 5EB15B66
@@ -612,50 +606,37 @@ Text GLabel 4600 2750 1    50   Input ~ 0
 espDataReady
 Text GLabel 4700 2750 1    50   Input ~ 0
 espReset
-Text GLabel 2700 4550 3    50   Input ~ 0
+Text GLabel 6000 2750 1    50   Input ~ 0
 EN_E1
 Text GLabel 3300 4550 3    50   Input ~ 0
 DIR_E1
-Text GLabel 3800 4550 3    50   Input ~ 0
+Text GLabel 6100 2750 1    50   Input ~ 0
 STEP_E1
-Text GLabel 6000 4550 3    50   Input ~ 0
+Text GLabel 6400 4550 3    50   Input ~ 0
 SRX_X
-Text GLabel 5900 4550 3    50   Input ~ 0
+Text GLabel 6300 4550 3    50   Input ~ 0
 STX_X
 Text GLabel 6200 4550 3    50   Input ~ 0
 SRX_Y
 Text GLabel 6100 4550 3    50   Input ~ 0
 STX_Y
-Text GLabel 6400 4550 3    50   Input ~ 0
+Text GLabel 3600 4550 3    50   Input ~ 0
 SRX_Z
-Text GLabel 6300 4550 3    50   Input ~ 0
+Text GLabel 3500 4550 3    50   Input ~ 0
 STX_Z
 Text GLabel 5800 4550 3    50   Input ~ 0
 SRX_E0
 Text GLabel 5700 4550 3    50   Input ~ 0
 STX_E0
-Text GLabel 3600 4550 3    50   Input ~ 0
+Text GLabel 6000 4550 3    50   Input ~ 0
 SRX_E1
-Text GLabel 3500 4550 3    50   Input ~ 0
+Text GLabel 5900 4550 3    50   Input ~ 0
 STX_E1
 Text GLabel 5550 6650 0    50   Input ~ 0
 IO1
 Text GLabel 3500 2750 1    50   Input ~ 0
 RESET
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60026891
-P 4600 6700
-AR Path="/60026891" Ref="J?"  Part="1" 
-AR Path="/5EE89C74/60026891" Ref="J1"  Part="1" 
-F 0 "J1" H 4680 6692 50  0000 L CNN
-F 1 "SPI" H 4680 6601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4600 6700 50  0001 C CNN
-F 3 "~" H 4600 6700 50  0001 C CNN
-	1    4600 6700
-	1    0    0    -1  
-$EndComp
-Text GLabel 4400 6600 0    50   Input ~ 0
+Text GLabel 5550 6550 0    50   Input ~ 0
 SD_CS_LCD
 $Comp
 L Connector:Micro_SD_Card J32
@@ -992,17 +973,6 @@ Wire Wire Line
 Text GLabel 3400 4550 3    50   Input ~ 0
 FET4
 $Comp
-L Connector_Generic:Conn_01x06 J20
-U 1 1 602A4D55
-P 5750 6850
-F 0 "J20" H 5830 6842 50  0000 L CNN
-F 1 "EXP3" H 5830 6751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5750 6850 50  0001 C CNN
-F 3 "~" H 5750 6850 50  0001 C CNN
-	1    5750 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP1
 U 1 1 603022E9
 P 3000 2500
@@ -1113,4 +1083,15 @@ F 3 "~" H 4400 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 2350 4200 2750
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5F7A34B9
+P 5750 6850
+F 0 "J1" H 5830 6892 50  0000 L CNN
+F 1 "EXP3" H 5830 6801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 5750 6850 50  0001 C CNN
+F 3 "~" H 5750 6850 50  0001 C CNN
+	1    5750 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

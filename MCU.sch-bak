@@ -35,29 +35,29 @@ Text GLabel 3900 4550 3    50   Input ~ 0
 FET3
 Text GLabel 5600 4550 3    50   Input ~ 0
 FET2
-Text GLabel 4200 4550 3    50   Input ~ 0
+Text GLabel 4600 4550 3    50   Input ~ 0
 EN_X
-Text GLabel 6100 2750 1    50   Input ~ 0
+Text GLabel 4300 4550 3    50   Input ~ 0
 EN_Y
 Text GLabel 5500 2750 1    50   Input ~ 0
 EN_Z
-Text GLabel 4600 4550 3    50   Input ~ 0
+Text GLabel 6600 2750 1    50   Input ~ 0
 STEP_X
 Text GLabel 4500 4550 3    50   Input ~ 0
 STEP_Y
-Text GLabel 4400 4550 3    50   Input ~ 0
+Text GLabel 4200 4550 3    50   Input ~ 0
 STEP_Z
-Text GLabel 6600 2750 1    50   Input ~ 0
+Text GLabel 2700 4550 3    50   Input ~ 0
 DIR_X
-Text GLabel 6000 2750 1    50   Input ~ 0
+Text GLabel 4400 4550 3    50   Input ~ 0
 DIR_Y
-Text GLabel 5400 2750 1    50   Input ~ 0
+Text GLabel 3800 4550 3    50   Input ~ 0
 DIR_Z
 Text GLabel 5300 2750 1    50   Input ~ 0
 EN_E0
 Text GLabel 5200 2750 1    50   Input ~ 0
 DIR_E0
-Text GLabel 4300 4550 3    50   Input ~ 0
+Text GLabel 5400 2750 1    50   Input ~ 0
 STEP_E0
 Text GLabel 5700 2750 1    50   Input ~ 0
 MISO
@@ -612,31 +612,31 @@ Text GLabel 4600 2750 1    50   Input ~ 0
 espDataReady
 Text GLabel 4700 2750 1    50   Input ~ 0
 espReset
-Text GLabel 2700 4550 3    50   Input ~ 0
+Text GLabel 6000 2750 1    50   Input ~ 0
 EN_E1
 Text GLabel 3300 4550 3    50   Input ~ 0
 DIR_E1
-Text GLabel 3800 4550 3    50   Input ~ 0
+Text GLabel 6100 2750 1    50   Input ~ 0
 STEP_E1
-Text GLabel 6000 4550 3    50   Input ~ 0
+Text GLabel 6400 4550 3    50   Input ~ 0
 SRX_X
-Text GLabel 5900 4550 3    50   Input ~ 0
+Text GLabel 6300 4550 3    50   Input ~ 0
 STX_X
 Text GLabel 6200 4550 3    50   Input ~ 0
 SRX_Y
 Text GLabel 6100 4550 3    50   Input ~ 0
 STX_Y
-Text GLabel 6400 4550 3    50   Input ~ 0
+Text GLabel 3600 4550 3    50   Input ~ 0
 SRX_Z
-Text GLabel 6300 4550 3    50   Input ~ 0
+Text GLabel 3500 4550 3    50   Input ~ 0
 STX_Z
 Text GLabel 5800 4550 3    50   Input ~ 0
 SRX_E0
 Text GLabel 5700 4550 3    50   Input ~ 0
 STX_E0
-Text GLabel 3600 4550 3    50   Input ~ 0
+Text GLabel 6000 4550 3    50   Input ~ 0
 SRX_E1
-Text GLabel 3500 4550 3    50   Input ~ 0
+Text GLabel 5900 4550 3    50   Input ~ 0
 STX_E1
 Text GLabel 5550 6650 0    50   Input ~ 0
 IO1

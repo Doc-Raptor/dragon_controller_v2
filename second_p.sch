@@ -97,10 +97,10 @@ STEP_X
 Text GLabel 1100 1100 0    50   Output ~ 0
 DIR_X
 $Comp
-L Connector_Generic:Conn_01x04 J60
+L Connector_Generic:Conn_01x04 J20
 U 1 1 5F3E2744
 P 9950 3800
-F 0 "J60" H 10030 3792 50  0000 L CNN
+F 0 "J20" H 10030 3792 50  0000 L CNN
 F 1 "e0-Stepper" H 10030 3701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9950 3800 50  0001 C CNN
 F 3 "~" H 9950 3800 50  0001 C CNN
