@@ -129,10 +129,6 @@ F 3 "" H 600 2700 50  0001 C CNN
 	1    600  2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  2400 0    50   Input ~ 0
-SRX_X
-Text GLabel 900  2500 0    50   Input ~ 0
-STX_X
 $Comp
 L TMC:TMC2209-LA U4
 U 1 1 5F6D8030
@@ -156,8 +152,6 @@ F 3 "~" H 3300 2500 50  0001 C CNN
 	1    3300 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 2400 3300 2400
 Wire Wire Line
 	3300 2600 3300 2650
 Wire Wire Line
@@ -218,8 +212,6 @@ F 3 "~" H 2750 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 1100 3750 1100
-Wire Wire Line
 	3750 1100 3750 650 
 Wire Wire Line
 	3750 650  3000 650 
@@ -245,13 +237,7 @@ F 3 "~" H 3300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 2300 3300 2300
-Wire Wire Line
-	3100 2100 3300 2100
-Wire Wire Line
 	3300 2100 3300 2000
-Wire Wire Line
-	3300 2000 3100 2000
 Connection ~ 3300 2100
 Wire Wire Line
 	3700 2000 3300 2000
@@ -313,32 +299,18 @@ Wire Wire Line
 NoConn ~ 1100 1300
 NoConn ~ 1100 1400
 NoConn ~ 3100 1300
-Wire Wire Line
-	1100 2400 900  2400
 $Comp
 L Device:R_Small R6
 U 1 1 5F8D1DC8
-P 1000 2500
-F 0 "R6" H 1059 2546 50  0000 L CNN
-F 1 "1K" H 1059 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 1000 2500 50  0001 C CNN
-F 3 "~" H 1000 2500 50  0001 C CNN
-	1    1000 2500
+P 700 2400
+F 0 "R6" H 759 2446 50  0000 L CNN
+F 1 "20K" H 759 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 700 2400 50  0001 C CNN
+F 3 "~" H 700 2400 50  0001 C CNN
+	1    700  2400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1100 2500 1100 2400
-Connection ~ 1100 2400
-Wire Wire Line
-	1100 2550 1100 2600
-Wire Wire Line
-	1100 2600 600  2600
-Wire Wire Line
-	600  2600 600  2700
-Wire Wire Line
-	600  2300 600  2600
 Connection ~ 600  2300
-Connection ~ 600  2600
 Text GLabel 4100 1100 0    50   Output ~ 0
 X-MIN
 $Comp
@@ -352,8 +324,6 @@ F 3 "~" H 4300 1100 50  0001 C CNN
 	1    4300 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 1200 3100 1200
 Wire Wire Line
 	3100 1700 3150 1700
 Wire Wire Line
@@ -428,10 +398,6 @@ F 3 "" H 4600 2750 50  0001 C CNN
 	1    4600 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 2450 0    50   Input ~ 0
-SRX_Y
-Text GLabel 4900 2550 0    50   Input ~ 0
-STX_Y
 $Comp
 L TMC:TMC2209-LA U5
 U 1 1 5FAF4EC2
@@ -455,8 +421,6 @@ F 3 "~" H 7300 2550 50  0001 C CNN
 	1    7300 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 2450 7300 2450
 Wire Wire Line
 	7300 2650 7300 2700
 Wire Wire Line
@@ -486,8 +450,6 @@ F 3 "~" H 7200 950 50  0001 C CNN
 	1    7200 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 1050 7200 1050
 $Comp
 L power:GND #PWR0126
 U 1 1 5FAF4EE1
@@ -517,8 +479,6 @@ F 3 "~" H 6750 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7100 1150 7750 1150
-Wire Wire Line
 	7750 1150 7750 700 
 Wire Wire Line
 	7750 700  7000 700 
@@ -544,13 +504,7 @@ F 3 "~" H 7300 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 2350 7300 2350
-Wire Wire Line
-	7100 2150 7300 2150
-Wire Wire Line
 	7300 2150 7300 2050
-Wire Wire Line
-	7300 2050 7100 2050
 Connection ~ 7300 2150
 Connection ~ 7300 2050
 Wire Wire Line
@@ -607,32 +561,18 @@ Wire Wire Line
 NoConn ~ 5100 1350
 NoConn ~ 5100 1450
 NoConn ~ 7100 1350
-Wire Wire Line
-	5100 2450 4900 2450
 $Comp
 L Device:R_Small R14
 U 1 1 5FAF4F28
-P 5000 2550
-F 0 "R14" V 5196 2550 50  0000 C CNN
-F 1 "1K" V 5105 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 5000 2550 50  0001 C CNN
-F 3 "~" H 5000 2550 50  0001 C CNN
-	1    5000 2550
+P 4700 2450
+F 0 "R14" V 4896 2450 50  0000 C CNN
+F 1 "20K" V 4805 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4700 2450 50  0001 C CNN
+F 3 "~" H 4700 2450 50  0001 C CNN
+	1    4700 2450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5100 2550 5100 2450
-Connection ~ 5100 2450
-Wire Wire Line
-	5100 2600 5100 2650
-Wire Wire Line
-	5100 2650 4600 2650
-Wire Wire Line
-	4600 2650 4600 2750
-Wire Wire Line
-	4600 2350 4600 2650
 Connection ~ 4600 2350
-Connection ~ 4600 2650
 Text GLabel 8100 1150 0    50   Output ~ 0
 Y-MIN
 $Comp
@@ -647,15 +587,11 @@ F 3 "~" H 8300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 1250 7100 1250
-Wire Wire Line
 	7100 1750 7150 1750
 Wire Wire Line
 	7150 1750 7150 1700
 Wire Wire Line
 	7150 1700 7300 1700
-Wire Wire Line
-	7100 1850 7200 1850
 Wire Wire Line
 	7200 1850 7200 1800
 Wire Wire Line
@@ -727,10 +663,6 @@ F 3 "" H 600 5000 50  0001 C CNN
 	1    600  5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  4700 0    50   Input ~ 0
-SRX_Z
-Text GLabel 900  4800 0    50   Input ~ 0
-STX_Z
 $Comp
 L TMC:TMC2209-LA U6
 U 1 1 5FBF2369
@@ -906,32 +838,18 @@ Wire Wire Line
 NoConn ~ 1100 3600
 NoConn ~ 1100 3700
 NoConn ~ 3100 3600
-Wire Wire Line
-	1100 4700 900  4700
 $Comp
 L Device:R_Small R19
 U 1 1 5FBF23CC
-P 1000 4800
-F 0 "R19" V 1196 4800 50  0000 C CNN
-F 1 "1K" V 1105 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 1000 4800 50  0001 C CNN
-F 3 "~" H 1000 4800 50  0001 C CNN
-	1    1000 4800
+P 700 4700
+F 0 "R19" V 896 4700 50  0000 C CNN
+F 1 "20K" V 805 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 700 4700 50  0001 C CNN
+F 3 "~" H 700 4700 50  0001 C CNN
+	1    700  4700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1100 4800 1100 4700
-Connection ~ 1100 4700
-Wire Wire Line
-	1100 4850 1100 4900
-Wire Wire Line
-	1100 4900 600  4900
-Wire Wire Line
-	600  4900 600  5000
-Wire Wire Line
-	600  4600 600  4900
 Connection ~ 600  4600
-Connection ~ 600  4900
 Text GLabel 4100 3400 0    50   Output ~ 0
 Z-MIN
 $Comp
@@ -1026,10 +944,8 @@ F 3 "" H 7050 4950 50  0001 C CNN
 	1    7050 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 4650 0    50   Input ~ 0
-SRX_E0
-Text GLabel 7350 4750 0    50   Input ~ 0
-STX_E0
+Text GLabel 7500 4700 0    50   Input ~ 0
+S_E0
 $Comp
 L TMC:TMC2209-LA U7
 U 1 1 5FDA9666
@@ -1205,32 +1121,22 @@ Wire Wire Line
 NoConn ~ 7550 3550
 NoConn ~ 7550 3650
 NoConn ~ 9550 3550
-Wire Wire Line
-	7550 4650 7350 4650
 $Comp
 L Device:R_Small R24
 U 1 1 5FDA96C9
-P 7450 4750
-F 0 "R24" V 7646 4750 50  0000 C CNN
-F 1 "1K" V 7555 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 7450 4750 50  0001 C CNN
-F 3 "~" H 7450 4750 50  0001 C CNN
-	1    7450 4750
+P 7150 4650
+F 0 "R24" V 7346 4650 50  0000 C CNN
+F 1 "20K" V 7255 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7150 4650 50  0001 C CNN
+F 3 "~" H 7150 4650 50  0001 C CNN
+	1    7150 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 4750 7550 4650
-Connection ~ 7550 4650
+	7550 4800 7050 4800
 Wire Wire Line
-	7550 4800 7550 4850
-Wire Wire Line
-	7550 4850 7050 4850
-Wire Wire Line
-	7050 4850 7050 4950
-Wire Wire Line
-	7050 4550 7050 4850
+	7050 4550 7050 4650
 Connection ~ 7050 4550
-Connection ~ 7050 4850
 Wire Wire Line
 	10550 3450 9550 3450
 Wire Wire Line
@@ -1345,10 +1251,8 @@ F 3 "" H 2750 7350 50  0001 C CNN
 	1    2750 7350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 7050 0    50   Input ~ 0
-SRX_E1
-Text GLabel 3050 7150 0    50   Input ~ 0
-STX_E1
+Text GLabel 3200 7100 0    50   Input ~ 0
+S_E1
 $Comp
 L TMC:TMC2209-LA U8
 U 1 1 5FF6C041
@@ -1524,32 +1428,22 @@ Wire Wire Line
 NoConn ~ 3250 5950
 NoConn ~ 3250 6050
 NoConn ~ 5250 5950
-Wire Wire Line
-	3250 7050 3050 7050
 $Comp
 L Device:R_Small R27
 U 1 1 5FF6C0A4
-P 3150 7150
-F 0 "R27" V 3346 7150 50  0000 C CNN
-F 1 "1K" V 3255 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 3150 7150 50  0001 C CNN
-F 3 "~" H 3150 7150 50  0001 C CNN
-	1    3150 7150
+P 2850 7050
+F 0 "R27" V 3046 7050 50  0000 C CNN
+F 1 "20K" V 2955 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2850 7050 50  0001 C CNN
+F 3 "~" H 2850 7050 50  0001 C CNN
+	1    2850 7050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3250 7150 3250 7050
-Connection ~ 3250 7050
+	3250 7200 2750 7200
 Wire Wire Line
-	3250 7200 3250 7250
-Wire Wire Line
-	3250 7250 2750 7250
-Wire Wire Line
-	2750 7250 2750 7350
-Wire Wire Line
-	2750 6950 2750 7250
+	2750 6950 2750 7050
 Connection ~ 2750 6950
-Connection ~ 2750 7250
 Wire Wire Line
 	6250 5850 5250 5850
 Wire Wire Line
@@ -1615,25 +1509,17 @@ Connection ~ 5850 6650
 Wire Wire Line
 	5850 6650 6000 6650
 Wire Wire Line
-	3100 1500 3250 1500
-Wire Wire Line
 	3250 1500 3250 1450
 Wire Wire Line
 	3250 1450 3300 1450
 Wire Wire Line
 	3100 1400 3200 1400
 Wire Wire Line
-	3200 1400 3200 1550
-Wire Wire Line
 	3200 1550 3300 1550
-Wire Wire Line
-	7100 1550 7250 1550
 Wire Wire Line
 	7250 1550 7250 1500
 Wire Wire Line
 	7250 1500 7300 1500
-Wire Wire Line
-	7100 1450 7200 1450
 Wire Wire Line
 	7200 1450 7200 1600
 Wire Wire Line
@@ -1739,4 +1625,123 @@ F 3 "" H 10600 4250 50  0001 C CNN
 	1    10600 4250
 	1    0    0    -1  
 $EndComp
+Text GLabel 1000 2450 0    50   Input ~ 0
+S_X
+Text GLabel 5000 2500 0    50   Input ~ 0
+S_Y
+Wire Wire Line
+	600  2300 600  2400
+Wire Wire Line
+	3100 2400 3300 2400
+Wire Wire Line
+	3100 1100 3750 1100
+Wire Wire Line
+	3100 2300 3300 2300
+Wire Wire Line
+	3100 2100 3300 2100
+Wire Wire Line
+	3100 2000 3300 2000
+Wire Wire Line
+	3100 1200 4100 1200
+Wire Wire Line
+	1100 2550 600  2550
+Connection ~ 600  2550
+Wire Wire Line
+	600  2550 600  2700
+Wire Wire Line
+	4600 2350 4600 2450
+Wire Wire Line
+	7100 2450 7300 2450
+Wire Wire Line
+	7100 1050 7200 1050
+Wire Wire Line
+	7100 1150 7750 1150
+Wire Wire Line
+	7100 2350 7300 2350
+Wire Wire Line
+	7100 2150 7300 2150
+Wire Wire Line
+	7100 2050 7300 2050
+Wire Wire Line
+	7100 1250 8100 1250
+Wire Wire Line
+	7100 1850 7200 1850
+Wire Wire Line
+	7100 1550 7250 1550
+Wire Wire Line
+	7100 1450 7200 1450
+Wire Wire Line
+	5100 2600 4600 2600
+Connection ~ 4600 2600
+Wire Wire Line
+	4600 2600 4600 2750
+Text GLabel 1000 4750 0    50   Input ~ 0
+S_Z
+Wire Wire Line
+	600  4600 600  4700
+Wire Wire Line
+	1100 4850 600  4850
+Connection ~ 600  4850
+Wire Wire Line
+	600  4850 600  5000
+Connection ~ 7050 4800
+Wire Wire Line
+	7050 4800 7050 4950
+Connection ~ 2750 7200
+Wire Wire Line
+	2750 7200 2750 7350
+Wire Wire Line
+	3100 1500 3250 1500
+Wire Wire Line
+	3200 1400 3200 1550
+Connection ~ 600  2400
+Wire Wire Line
+	600  2400 600  2550
+Wire Wire Line
+	800  2400 1000 2400
+Wire Wire Line
+	1000 2450 1000 2400
+Connection ~ 1000 2400
+Wire Wire Line
+	1000 2400 1100 2400
+Connection ~ 4600 2450
+Wire Wire Line
+	4600 2450 4600 2600
+Wire Wire Line
+	5100 2450 5000 2450
+Wire Wire Line
+	5000 2500 5000 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 2450 4800 2450
+Connection ~ 600  4700
+Wire Wire Line
+	600  4700 600  4850
+Wire Wire Line
+	800  4700 1000 4700
+Wire Wire Line
+	1000 4750 1000 4700
+Connection ~ 1000 4700
+Wire Wire Line
+	1000 4700 1100 4700
+Connection ~ 7050 4650
+Wire Wire Line
+	7050 4650 7050 4800
+Wire Wire Line
+	7550 4650 7500 4650
+Wire Wire Line
+	7500 4700 7500 4650
+Connection ~ 7500 4650
+Wire Wire Line
+	7500 4650 7250 4650
+Connection ~ 2750 7050
+Wire Wire Line
+	2750 7050 2750 7200
+Wire Wire Line
+	3250 7050 3200 7050
+Wire Wire Line
+	3200 7100 3200 7050
+Connection ~ 3200 7050
+Wire Wire Line
+	3200 7050 2950 7050
 $EndSCHEMATC

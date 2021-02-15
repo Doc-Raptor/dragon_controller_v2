@@ -514,8 +514,6 @@ Text GLabel 6400 4750 2    50   Input ~ 0
 BTN_EN1
 Text GLabel 6400 4650 2    50   Input ~ 0
 BTN_EN2
-Text GLabel 6400 4550 2    50   Input ~ 0
-SD_DETECT
 Wire Wire Line
 	6400 4450 6950 4450
 Text GLabel 6200 3750 0    50   Input ~ 0
@@ -899,7 +897,7 @@ U 1 1 5E9E6355
 P 6100 4650
 F 0 "J30" H 6150 5067 50  0000 C CNN
 F 1 "EXP2" H 6150 4976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6100 4650 50  0001 C CNN
+F 2 "Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical" H 6100 4650 50  0001 C CNN
 F 3 "~" H 6100 4650 50  0001 C CNN
 	1    6100 4650
 	1    0    0    -1  
@@ -910,7 +908,7 @@ U 1 1 5E9C9CB2
 P 6400 3750
 F 0 "J29" H 6450 4167 50  0000 C CNN
 F 1 "EXP1" H 6450 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6400 3750 50  0001 C CNN
+F 2 "Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical" H 6400 3750 50  0001 C CNN
 F 3 "~" H 6400 3750 50  0001 C CNN
 	1    6400 3750
 	1    0    0    -1  
@@ -1239,7 +1237,7 @@ L Connector:Screw_Terminal_01x02 J5
 U 1 1 5D7A27EC
 P 8500 900
 F 0 "J5" H 8418 575 50  0000 C CNN
-F 1 "Hotend" H 8418 666 50  0000 C CNN
+F 1 "Hotend_E0" H 8418 666 50  0000 C CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 8500 900 50  0001 C CNN
 F 3 "~" H 8500 900 50  0001 C CNN
 	1    8500 900 
@@ -1275,7 +1273,7 @@ U 1 1 5D6D14EB
 P 1900 1100
 F 0 "F1" H 1900 1285 50  0000 C CNN
 F 1 "Fuse_Power" H 1900 1194 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" H 1900 1100 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 1900 1100 50  0001 C CNN
 F 3 "~" H 1900 1100 50  0001 C CNN
 	1    1900 1100
 	1    0    0    -1  
@@ -1317,8 +1315,6 @@ Text GLabel 9500 2100 0    50   Output ~ 0
 FET2
 Text GLabel 9700 3250 0    50   Output ~ 0
 FET1
-Text GLabel 5900 4750 0    50   Input ~ 0
-CS1
 Wire Wire Line
 	10100 4200 10050 4200
 $Comp
@@ -1430,7 +1426,7 @@ L Connector:Screw_Terminal_01x02 J23
 U 1 1 6027A1BD
 P 8550 4050
 F 0 "J23" H 8468 3725 50  0000 C CNN
-F 1 "Hotend" H 8468 3816 50  0000 C CNN
+F 1 "Hotend_E1" H 8468 3816 50  0000 C CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 8550 4050 50  0001 C CNN
 F 3 "~" H 8550 4050 50  0001 C CNN
 	1    8550 4050
@@ -1513,4 +1509,8 @@ Wire Wire Line
 	9350 3250 9100 3250
 Wire Wire Line
 	1450 1100 1800 1100
+Text GLabel 5900 4750 0    50   Input ~ 0
+SD_CS_LCD
+Text GLabel 6400 4550 2    50   Input ~ 0
+SD_DETECT
 $EndSCHEMATC
