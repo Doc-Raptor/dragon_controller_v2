@@ -1346,17 +1346,4 @@ NoConn ~ 2050 5750
 NoConn ~ 2050 6050
 Wire Wire Line
 	3600 4550 3600 4850
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60539448
-P 3800 2550
-F 0 "TP1" H 3858 2668 50  0000 L CNN
-F 1 "TestPoint" H 3858 2577 50  0000 L CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 4000 2550 50  0001 C CNN
-F 3 "~" H 4000 2550 50  0001 C CNN
-	1    3800 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2750 3800 2550
 $EndSCHEMATC
